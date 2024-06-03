@@ -27,32 +27,62 @@ submitScoreButton.addEventListener('click', saveScore);
 // Questions array
 const questions = [
     {
-        question: "What is the capital of France?",
+        question: "မြန်မာနိုင်ငံရဲ့ မြို့တော်ကို ရွေးပါ။?",
         answers: [
-            { text: "Berlin", correct: false },
-            { text: "Madrid", correct: false },
-            { text: "Paris", correct: true },
-            { text: "Lisbon", correct: false }
+            { text: "ရန်ကုန်", correct: false },
+            { text: "မန္တလေး", correct: false },
+            { text: "နေပြည်တော်", correct: true },
+            { text: "စစ်ကိုင်း", correct: false }
         ]
     },
     {
-        question: "What is 2 + 2?",
+        question: " မြန်မာနိုင်ငံမှာ အကြီးဆုံး ထိုင်တော်မူဘုရားဟာ, ဘယ်မြို့မှာ ရှိတာလဲ?",
         answers: [
-            { text: "3", correct: false },
-            { text: "4", correct: true },
-            { text: "5", correct: false },
-            { text: "6", correct: false }
+            { text: "ဂေါတမဗုဒ္ဓဘုရား မွန်ပြည်နယ် ကျိုက်ထိုမြို့", correct: false },
+            { text: "လောကချမ်းသာ အဘယလာဘမုနိ ကျောက်တော်ကြီးဘုရား ရန်ကုန်မြိုံ", correct: false },
+            { text: "မာရဝိဇယဘုရား နေပြည်တော်မြို့", correct: true },
+            { text: "မဇ္စျိမလာဘဗောဓိဘုရား ကချင်ပြည်နယ်", correct: false }
         ]
     },
     {
-        question: "What is the largest planet?",
+        question: "ရဟန်းတွေ စောင့်ထိန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
         answers: [
-            { text: "Earth", correct: false },
-            { text: "Mars", correct: false },
-            { text: "Jupiter", correct: true },
-            { text: "Saturn", correct: false }
+            { text: "၂၂၀", correct: false },
+            { text: "၂၂၇", correct: true },
+            { text: "၃၃၁", correct: false },
+            { text: "၄၂၁", correct: false }
         ]
-    }
+    },
+    {
+        question: "ကိုရင်တွေ စောင့်ထိန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        answers: [
+            { text: "၇၅", correct: false },
+            { text: "၁၀၉", correct: false },
+            { text: "၁၁၉", correct: true },
+            { text: "၁၄၀", correct: false }
+        ]
+    },
+    {
+        question: "သီလရှင်တွေ စောင့်ထီန်းရတဲ့ ဝိနည်းစည်းကမ်း သိက္ခာပုဒ်က ဘယ်လောက်ရှိပါသလဲ?",
+        answers: [
+            { text: "၁၀", correct: false },
+            { text: "၉", correct: false },
+            { text: "၈", correct: true },
+            { text: "၅", correct: false }
+        ]
+    },
+    {
+        question: "လူတွေ ခါးဝတ်ပုဆိုးလို မြဲရမယ့် ကျင့်ဝတ် ဘယ်နှစ်ပါးရှိပါသလဲ?",
+        answers: [
+            { text: "၁၀", correct: false },
+            { text: "၉", correct: false },
+            { text: "၈", correct: false },
+            { text: "၅", correct: true }
+        ]
+    },
+   
+   
+    
 ];
 
 // Function to start the game
